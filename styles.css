@@ -1,0 +1,76 @@
+/* Cyberpunk-Inspired Style */
+
+/* Basic reset */
+body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styles */
+body {
+    font-family: 'Orbitron', sans-serif; /* Futuristic font */
+    background: linear-gradient(45deg, #1a1a1a, #0d0d0d); /* Dark background with gradient */
+    color: #e1e1e1; /* Light grey text color */
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Heading styles */
+h1 {
+    color: #00ff99; /* Neon green color for the heading */
+    font-size: 3em; /* Larger heading */
+    text-shadow: 0 0 10px #00ff99, 0 0 20px #00ff99; /* Glowing effect */
+    letter-spacing: 2px;
+}
+
+/* Paragraph and general text styles */
+p {
+    color: #cccccc; /* Light grey for text */
+    font-size: 1.2em;
+    text-shadow: 0 0 5px #cccccc, 0 0 10px #cccccc; /* Slight glow for text */
+}
+
+/* List styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* List item styles */
+li {
+    margin: 20px 0;
+}
+
+/* Link styles */
+a {
+    font-size: 20px;
+    color: #ff33cc; /* Neon pink links */
+    text-decoration: none;
+    padding: 15px 30px;
+    border: 2px solid #ff33cc; /* Neon pink border */
+    border-radius: 10px;
+    background: transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Link hover effect */
+a:hover {
+    background: #ff33cc; /* Neon pink background on hover */
+    color: #1a1a1a; /* Dark color for text when hovered */
+    box-shadow: 0 0 15px #ff33cc, 0 0 30px #ff33cc; /* Glowing effect on hover */
+    transform: scale(1.05); /* Slight zoom effect */
+}
+
+/* Special effects for the overall page */
+body {
+    background: linear-gradient(45deg, #0d0d0d, #1a1a1a);
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s ease infinite;
+}
+
+/* Animation for gradient */
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
